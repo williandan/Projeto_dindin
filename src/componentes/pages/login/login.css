@@ -1,0 +1,95 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  background: url('../../imgs/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login section{
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.publi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 535px;
+}
+
+.publi h1{
+  width:614px;
+  gap: flex-wrap;
+  font-size: 52px;
+  line-height: 62px;
+  color:#ffffff;
+  margin-bottom: 33px;
+}
+
+.publi p{
+  width: 600px;
+  height: 99px;
+  color:#ffffff;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.publi button{
+  background-color: #7978D9;
+  color: #FFFFFF;
+  border: none;
+  height: 52px;
+  width: 284px;
+  border-radius: 5px;
+}
+
+.login form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 513px;
+  height: 535px;
+  background: #ffffff;
+  color: #484848;
+}
+
+.login form h1{
+  color: #7978D9;
+  margin-bottom: 50px;
+}
+
+.login form input{
+  width: 449px;
+  height: 63px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.login .input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login .inputEmail{
+  margin-bottom: 30px;
+}
+
+.login form button{
+  height: 52px;
+  width: 449px;
+  margin-top:70px; 
+  border: none;
+  border-radius: 5px;
+  background: #7978D9;
+  color: #ffffff;
+}

@@ -1,0 +1,231 @@
+.home{
+  background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+  height: 100vh;
+}
+
+.home header{
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  width: 138px;
+  height: 56px;
+  margin-right: 100px;
+  gap: 10px;
+}
+
+.perfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+  width: 41px;
+
+}
+
+.perfil2{
+  position: absolute;
+}
+
+.sair{
+  height: 27.5px;
+  width: 22px;
+  margin-top: 5px;
+}
+
+.home section{
+  background: #ffffff;
+  border-radius: 50px 50px 0px 0px;
+  height: 100vh;
+  display: flex;
+  padding: 63px 15px 15px 65px;
+}
+
+.ladoEsquerdo{
+  width: 959px;
+  margin-right: 35px;
+  margin-top: 50px;
+}
+
+.home table{
+  width: 964px;
+}
+
+.home table thead{
+  width: 964px;
+  height: 58px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.home tbody td {
+  text-align: center;
+  border-bottom: 1px solid #E0E0E0;
+  height: 50px;
+}
+
+.tabelaData{
+  font-weight:bold ;
+}
+
+.tabelaValorEntrada{
+  color: #7B61FF ;
+}
+
+.tabelaValorSaida{
+  color: #FA8C10
+}
+
+.resumo{
+  display: flex;
+  flex-direction: column;
+  width: 236px;
+  height: 196px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 0px 33px 0px 30px;
+}
+
+.resumo h1{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F2F2F;
+  margin:26px 0px 23px 0px;
+}
+
+.entradas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.valorEntradas{
+  font-weight: 500;
+  font-size: 13px;
+  color: #645FFB;
+}
+
+.saidas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.valorSaidas{
+  font-weight: 500;
+  font-size: 13px;
+  color: #FA8C10;
+}
+
+.saldo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #EAEAEA;
+  padding-top: 15px;
+}
+
+.valorSaldo{
+  font-weight: 500;
+  font-size: 14px;
+  color: #3A9FF1;
+}
+
+.btnFiltrar{
+  border: none;
+  width: 80px;
+  height: 30px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.btnLimparFiltro{
+  width: 98px;
+  height: 30px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border:none;
+  margin-top: 25px;
+}
+
+.btnAplicarFiltro{
+  width: 98px;
+  height: 30px;
+  background: #7978D9;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+}
+
+.btnAdicionarRegistro{
+  background: #7978D9;
+  border-radius: 5px;
+  width:236px;
+  height:46px;
+  border: none;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+.categoria{
+  display: flex;
+  flex-direction: column;
+  width: 959px;
+  height: 205px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.categoria h1{
+  width: 57px;
+  height: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #B9B9B9;
+  margin: 30px 0px 0px 15px;
+}
+
+.categoria .divCategorias{
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+}
+
+.categorias{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  height: 20px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 12px 12px 0px 12px;
+  padding: 5px 5px 5px 5px;
+}
+
+.categorias p {
+  font-weight: 400;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.categorias img{
+  width: 5.38px;
+  height: 5.34px;
+}

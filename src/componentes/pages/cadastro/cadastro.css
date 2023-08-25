@@ -1,0 +1,75 @@
+.cadastro{
+  width: 100vw;
+  height: 100vh;
+  background: url('../../imgs/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cadastro header{
+  display: flex;
+}
+
+.cadastro section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 513px;
+  height: 550px;
+  background: #ffffff;
+  color: #484848;
+}
+
+.cadastro form h1 {
+  color: #7978D9
+}
+
+.cadastro form input{
+  width: 449px;
+  height: 63px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.cadastro .input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cadastro button{
+  background-color: #7978D9;
+  color: #FFFFFF;
+  border: none;
+  height: 53px;
+  width: 449px;
+  border-radius: 5px;
+}
+
+.cadastro #nome{
+  margin-bottom: 10px;
+}
+
+.cadastro #email{
+  margin-bottom: 10px;
+}
+
+.cadastro #senha{
+  margin-bottom: 10px;
+}
+
+.cadastro #confirmarSenha{
+  margin-bottom: 30px;
+}
+
+
+
+
+
